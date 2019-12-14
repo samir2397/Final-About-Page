@@ -1,0 +1,188 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+#header {
+  opacity: 0.8;
+  background-color: black;
+  width: 100%;
+}
+
+#header img {
+  cursor: pointer;
+  width: 100%;
+}
+
+#header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#header ul li {
+  color: white;
+  list-style: none;
+  padding: 10px;
+}
+
+#header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#header ul li a:hover {
+  color: red;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#header .ic i {
+  color: white;
+  cursor: pointer;
+}
+
+#header .ic i:hover {
+  color: red;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.middle-center {
+  padding: 12rem 0;
+  position: relative;
+  z-index: 15;
+}
+
+#top {
+  position: relative;
+  background-image: url(../image/bg1.jpg);
+}
+
+#top::after {
+  content: '';
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  background-color: black;
+  opacity: .7;
+}
+
+#top h1 {
+  color: #fff;
+}
+
+#top a {
+  color: #b4afaf;
+}
+
+#top a:hover {
+  color: red;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#all {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #f7f8f9;
+}
+
+#all .idea {
+  border: 1px gainsboro;
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1), 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1), 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+#all .idea p {
+  padding-left: 10px;
+  padding-top: 30px;
+  font-weight: 200;
+  padding-bottom: 60px;
+}
+
+#all .idea h3 {
+  padding-top: 35px;
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 180px;
+}
+
+#all .idea img {
+  width: 55%;
+  padding-top: 70px;
+  padding-left: 210px;
+}
+
+#our {
+  padding-top: 50px;
+  text-align: center;
+}
+
+#our h2 {
+  font-weight: 700;
+}
+
+#our h2 img {
+  width: 3%;
+}
+
+#our p {
+  padding-top: 20px;
+  font-weight: 400;
+}
+
+#design {
+  padding-bottom: 100px;
+}
+
+#design img {
+  position: relative;
+  border-radius: 150px;
+  width: 40%;
+  top: 50%;
+  left: 30%;
+  z-index: 5;
+}
+
+#design .our {
+  padding-top: 120px;
+  border: 1px groove;
+  position: absolute;
+}
+
+#design .our:hover {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(5%, #fc4848), to(#f0b4b4));
+  background-image: linear-gradient(left, #fc4848 5%, #f0b4b4 100%);
+  color: #fff;
+}
+
+#design .our h3 {
+  font-weight: 700;
+  text-align: center;
+}
+
+#design .our h5 {
+  color: red;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#design .our p {
+  font-weight: 300;
+  padding-top: 50px;
+  text-align: center;
+}
+
+#design .our i {
+  font-size: 20px;
+  cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+/*# sourceMappingURL=style.css.map */
